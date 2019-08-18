@@ -443,6 +443,36 @@
 
 
 
+#### 11.修改头像
+
+*  请求URL
+> /api/user/photo
+* 请求方式
+> POST
+* 请求参数
+
+	| 参数| 参数类型| 参数说明  |
+	| ---|--------| -- |
+	| file  |  file | 表单记得加上 enctype="multipart/form-data" |
+
+* 响应结果
+
+<font color = '#008000' >成功</font>
+
+```
+{
+	"status": 0,
+	"data": "img/user_image/flashhelp/8a5af2c4-c088-4eb4-beba-9d3d5885ad32.jpeg"
+}
+```
+
+<font color = '#DC143C' >失败</font>
+```
+{
+    "status": 1,
+    "msg": "上传头像失败"
+}
+```
 
 
 
@@ -458,7 +488,7 @@
 #### 0.模板
 
 *  请求URL
-> /xx/xxx.do
+> /xx/xxx
 * 请求方式
 > POST
 * 请求参数
