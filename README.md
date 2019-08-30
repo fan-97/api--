@@ -223,7 +223,7 @@
 #### 6.检查用户名是否已经存在
 
 *  请求URL
-> api/user/username/{username}
+> api/user/check/username/{username}
 * 请求方式
 > GET
 * 请求参数
@@ -252,7 +252,7 @@
 #### 7.检查手机号是否已经存在
 
 *  请求URL
-> api/user/phone/{phoneNumber}
+> api/user/check/phone/{phoneNumber}
 * 请求方式
 > GET
 * 请求参数
@@ -281,7 +281,7 @@
 #### 8.检查邮箱是否已经存在
 
 *  请求URL
-> api/user/email
+> api/user/check/email
 * 请求方式
 > GET
 * 请求参数
